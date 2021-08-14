@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@300&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***********************Generic styles**********************/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body
+{
+    line-height: 1.5;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.flex{
+    display: flex;
+}
+
+.card{
+    width: 100%;
+    height: 500px;
+  
+    justify-content: space-between;
+    
+}
+
+dt,h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+dd{
+    color: black;
+    font-size: 22px;
+    margin-left: 40px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+li{
+    font-size: 23px;
+    font-weight: 500;
+    color: #D4CEA7;
+}
+
+/*************************Custom Styles*******************************************/
+.header{
+    background-color: #F96115;
+    padding: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #D1D8D6;
+    text-transform: capitalize;
+    margin-right: 50px;
+    
+}
+.nav-ul{
+    width: 100%;
+ 
+    justify-content: space-between;
+}
+
+.main{
+    background-color: #D4CEA7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ol{
+    list-style: decimal;
+}
+
+.card-1,.card-2,.card-3{
+    width: 30%;
+    padding: 50px;
+
+    background-color: #005979;
+    box-shadow: 10px 10px 20px 5px #524d3e;
+}
+
+.card-2 ul{
+    list-style: disc;
+}
+.card-2 ol{
+    
+    list-style: decimal;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+.card-2 .Menu-1{
+    margin-left: 20px;
+    list-style: square;
+    list-style-position: inside;
+}
+ 
+.card-3 ol{
+    list-style: none;
+    list-style-image: url(../media/image/13.jpg);
+    
+    
+    
+}
+.shift{
+    margin-left: 20px;
+}
+
+
+.article{
+    margin-top: 20px;
+    padding-top: 50px;
+}
+.footer{
+    background-color: #252C22;
+    padding: 60px 0;
+  
+}
+.footer ul li a{
+    color: #D1D8D6;
+    margin-right: 50px;
+}
